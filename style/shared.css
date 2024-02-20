@@ -72,3 +72,24 @@ header {
   height: 2rem;
 }
 /* Site Upper side end */
+/* Site Main header start */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+.location {
+  display: flex;
+  justify-content: center;
+}
+.location i {
+  font-size: 5.5rem;
+  margin-right: 1rem;
+}
+.location a {
+  color: var(--site-main-color-);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
