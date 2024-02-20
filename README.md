@@ -1,3 +1,5 @@
 # UPG_FrontEnd
 
-![site_logo](https://github.com/BroOverbugs/UPG_FrontEnd/assets/92303549/562fb4e3-8dc6-465c-be74-79a26dd53e63)
+
+![site_logo](https://github.com/AvazbekOlimov/UPG_FrontEnd/assets/92303549/0ef1bd0c-577a-403d-b0aa-025d58b70fef)
+
