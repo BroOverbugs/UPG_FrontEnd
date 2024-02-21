@@ -11,9 +11,12 @@ html {
   font-size: 10px;
 }
 body {
+  height: 100vh;
   background-color: var(--site-bg-);
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 header {
   background-color: var(--site-hd-bg-);
@@ -22,6 +25,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 /* Site Upper side start */
 .upper-header {
@@ -144,12 +149,49 @@ footer {
   width: 100%;
   background-color: var(--site-hd-bg-);
   color: var(--site-font-);
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5rem 0;
+}
+.footer-side-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .footer-side-item ul li {
   list-style: none;
+  margin-top: 1rem;
 }
-.footer-side-item ul li a {
+.footer-side-item ul li a,
+.footer-side-item a {
+  font-size: 1.4rem;
   text-decoration: none;
   color: var(--site-font-);
 }
+.footer-side-item a:not(:last-child) {
+  margin-right: 2rem;
+}
+.footer-side-item a i {
+  font-size: 2.5rem;
+}
+.fa-instagram:hover {
+  color: #c13584;
+}
+.fa-telegram:hover {
+  color: #0088cc;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+}
+.footer-side-item ul li a:hover,
+.footer-side-item a:hover {
+  color: var(--site-color-);
+}
 /* footer side end */
+main {
+  flex-grow: 1;
+}
