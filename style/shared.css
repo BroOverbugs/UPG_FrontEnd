@@ -113,6 +113,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.login-reg a:hover,
+.order-side a:hover,
+.location a:hover {
+  color: var(--site-color-);
+}
 /* search side start */
 .search-side {
   width: 100%;
@@ -159,7 +164,7 @@ footer {
   padding: 5rem 0;
 }
 .footer-side-item h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 2.5rem;
 }
 .footer-side-item ul li {
