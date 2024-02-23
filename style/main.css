@@ -31,12 +31,15 @@ main {
 }
 .main-side {
   width: 70%;
+  display: flex;
+  flex-direction: column;
 }
 .discount-side {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2.2rem;
 }
 .title-of-discount {
   display: flex;
@@ -68,4 +71,62 @@ main {
 }
 .paged-discount a i:hover {
   color: #85004e;
+}
+.diskount-items {
+  width: 100%;
+  display: flex;
+}
+.discount-item {
+  width: 20%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  flex-wrap: wrap;
+  padding: 12px 18px;
+  border: 1px solid var(--katalog-border-);
+}
+.discount-item img {
+  height: 40%;
+  width: 100%;
+}
+.discount-item p {
+  height: 23%;
+  font-size: 1.2rem;
+  color: var(--site-main-color-);
+}
+.discount-item span {
+  height: 10%;
+}
+.discount-item span i {
+  color: var(--katalog-border-);
+}
+.discount-item s {
+  color: red;
+  height: 5%;
+  font-size: 1.4rem;
+}
+.discount-item h2 {
+  font-size: 1.8rem;
+  height: 12%;
+}
+.services {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-btn {
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--site-color-);
+  color: var(--site-font-);
+  margin-top: 0.5rem;
+  transition: 0.3s ease;
+}
+.main-btn:hover {
+  border: 2px solid var(--site-color-);
+  background: var(--site-bg-);
+  color: var(--site-color-);
 }
