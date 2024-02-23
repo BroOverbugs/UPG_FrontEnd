@@ -1,0 +1,71 @@
+main {
+  margin: 5rem 0;
+}
+.katalog {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.katalog {
+  border-top: 8px solid var(--site-color-);
+}
+.katalog h2,
+.katalog a {
+  border: 1px solid var(--katalog-border-);
+  padding: 1.2rem 1.6rem;
+}
+.katalog a {
+  color: var(--site-main-color-);
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.katalog a:hover {
+  color: var(--site-color-);
+}
+.main-container-of-main {
+  display: flex;
+  justify-content: space-between;
+}
+.main-side {
+  width: 70%;
+}
+.discount-side {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-of-discount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.title-of-discount i {
+  font-size: 4rem;
+  color: var(--site-color-);
+}
+.title-of-discount a {
+  color: var(--site-main-color-);
+  text-decoration: none;
+}
+.title-of-discount a:hover {
+  color: var(--site-color-);
+}
+.paged-discount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 8%;
+}
+.paged-discount a i {
+  font-size: 3rem;
+  color: var(--site-color-);
+  transition: 0.3s ease-in-out;
+}
+.paged-discount a i:hover {
+  color: #85004e;
+}

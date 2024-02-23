@@ -130,7 +130,7 @@ header {
   border-radius: 1.2rem 0 0 1.2rem;
   border: none;
   padding: 0 1.8rem;
-
+  transition: 0.3s ease-in-out;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -144,9 +144,15 @@ header {
   border-radius: 0 1.2rem 1.2rem 0;
   font-size: 2rem;
   font-weight: 500;
+  transition: 0.3s ease-in;
 }
 .search-side input:focus {
   outline: 0.1rem solid var(--site-color-);
+}
+.search-side button:hover {
+  border: 2px solid var(--site-color-);
+  background: var(--site-bg-);
+  color: var(--site-color-);
 }
 /* search side end */
 /* footer side start */
