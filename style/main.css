@@ -130,3 +130,32 @@ main {
   background: var(--site-bg-);
   color: var(--site-color-);
 }
+.title-of-brend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 0.2rem solid var(--katalog-border-);
+}
+.brend {
+  display: flex;
+  align-content: space-around;
+}
+.title-of-brend a {
+  text-decoration: none;
+  color: var(--site-main-color-);
+}
+.title-of-brend a:hover {
+  color: var(--site-color-);
+}
+.brends a img {
+  filter: grayscale(100%);
+  transition: all 0.3s;
+  transform: scale(1);
+}
+.brends a img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
