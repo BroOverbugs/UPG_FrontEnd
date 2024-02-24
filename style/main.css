@@ -73,45 +73,44 @@ main {
   color: #85004e;
 }
 .diskount-items {
-  width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-rows: auto;
+  gap: 1rem;
 }
 .discount-item {
-  width: 20%;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
   text-decoration: none;
-  flex-wrap: wrap;
   padding: 12px 18px;
   border: 1px solid var(--katalog-border-);
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 .discount-item img {
-  height: 40%;
+  height: 200px;
   width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 .discount-item p {
-  height: 23%;
   font-size: 1.2rem;
   color: var(--site-main-color-);
 }
 .discount-item span {
-  height: 10%;
+  margin-bottom: 15px;
 }
 .discount-item span i {
   color: var(--katalog-border-);
 }
 .discount-item s {
   color: red;
-  height: 5%;
   font-size: 1.4rem;
 }
 .discount-item h2 {
-  font-size: 1.8rem;
-  height: 12%;
+  font-size: 1.5rem;
+  margin-bottom: auto;
 }
 .services {
-  height: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
