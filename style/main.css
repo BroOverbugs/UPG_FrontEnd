@@ -182,3 +182,27 @@ main {
   text-decoration: none;
 }
 /* New section end */
+/* Best section start */
+.best-side {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.2rem;
+  margin-top: 4.3rem;
+}
+.title-of-best {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+.title-of-best i {
+  font-size: 4rem;
+  color: var(--new-section-);
+}
+.title-of-best a {
+  color: var(--site-main-color-);
+  text-decoration: none;
+}
+/* Best section end */
