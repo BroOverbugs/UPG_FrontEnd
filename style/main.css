@@ -158,3 +158,27 @@ main {
   filter: grayscale(0%);
   transform: scale(1.1);
 }
+/* New section start */
+.new-side {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.2rem;
+  margin-top: 4.3rem;
+}
+.title-of-new {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.title-of-new i {
+  font-size: 4rem;
+  color: var(--new-section-);
+}
+.title-of-new a {
+  color: var(--site-main-color-);
+  text-decoration: none;
+}
+/* New section end */
