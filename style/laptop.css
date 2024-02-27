@@ -10,7 +10,17 @@ main {
 .filtr {
   border-top: 8px solid var(--site-color-);
 }
-.filtrd h2 {
+.filtr h2 {
   border: 1px solid var(--katalog-border-);
   padding: 1.2rem 1.6rem;
+}
+.brends span label {
+  user-select: none;
+}
+.filter-title {
+  font-size: 2rem;
+}
+.filtr span div {
+  border: 0.1rem solid var(--katalog-border-);
+  padding: 1.2rem 1.8rem;
 }
