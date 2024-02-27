@@ -6,7 +6,6 @@ main {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  background: #f3f3f39c;
 }
 .filtr {
   border-top: 8px solid var(--site-color-);
@@ -26,6 +25,7 @@ main {
 .filtr span div {
   border: 0.1rem solid var(--katalog-border-);
   padding: 1.2rem 1.8rem;
+  background: #f3f3f39c;
 }
 .brends {
   display: flex;
@@ -208,3 +208,51 @@ main {
 .buttons-of-filter button:hover {
   background: var(--site-color-);
 }
+/* main side start */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-side {
+  width: 70%;
+}
+.main-side-intro p a {
+  color: var(--site-color-);
+  text-decoration: none;
+}
+.main-side-intro span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 4rem;
+}
+.main-side-intro span h1 {
+  padding-left: 2rem;
+  font-size: 5rem;
+}
+.sort {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--sort-border-);
+  padding: 1.5rem 3rem;
+  margin-bottom: 3rem;
+  border: 0.1rem solid var(--katalog-border-);
+  border-radius: 0.6rem;
+}
+.sort label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.sort select {
+  outline: none;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.6rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+/* main side end */
