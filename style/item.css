@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 5rem;
+  margin-bottom: 8rem;
 }
 .item-image {
   display: flex;
@@ -53,6 +54,7 @@
 .add-item-for {
   display: flex;
   align-items: center;
+  margin-bottom: 2rem;
 }
 .add-item {
   display: flex;
@@ -96,4 +98,103 @@
 }
 .info-for-product p {
   font-size: 1.6rem;
+}
+.favourite {
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  background: inherit;
+}
+.favourite i {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #ff0096;
+  margin-right: 5rem;
+}
+.comparison {
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  background-color: inherit;
+}
+.comparison i {
+  font-size: 3rem;
+  color: #ff0096;
+}
+.comparison i:hover,
+.favourite i:hover {
+  color: #80004a;
+}
+.buy-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy-btns button {
+  width: 20rem;
+  padding: 1.4rem 1.8rem;
+  border: 0.2rem solid #ffffff;
+  border-radius: 1.2rem;
+  background-color: #ff0096;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 100ms ease-in;
+}
+.buy-btns button i {
+  font-size: 2rem;
+}
+.buy-btns button:hover {
+  border: 0.2rem solid #ff0096;
+  background-color: #ffffff;
+  color: #80004a;
+}
+.hidden {
+  display: none;
+}
+.main-infos button {
+  padding: 1.2rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: inherit;
+  border: none;
+}
+.active-btn {
+  padding: 1.2rem 1.6rem;
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+  background-color: inherit;
+  border: none;
+  border-top: 0.1rem solid #cccccc !important;
+  border-right: 0.1rem solid #cccccc !important;
+  border-left: 0.1rem solid #cccccc !important;
+  border-radius: 1.2rem 1.2rem 0 0;
+}
+.buttons-of-main-infos {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.2rem solid #cccccc;
+}
+.characteristics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.characteristics span {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  border: 0.1rem solid #dcdcdccd;
+  padding: 2rem;
+  background-color: #f1f1f173;
+}
+.characteristics span b {
+  width: 30%;
+}
+.characteristics span:last-child {
+  border-radius: 0 0 0.8rem 0.8rem;
 }
