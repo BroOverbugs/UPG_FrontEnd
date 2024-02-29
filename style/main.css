@@ -8,22 +8,22 @@ main {
   border-radius: 8px;
 }
 .katalog {
-  border-top: 8px solid var(--site-color-);
+  border-top: 8px solid #ff0096;
 }
 .katalog h2,
 .katalog a {
-  border: 1px solid var(--katalog-border-);
+  border: 1px solid #cccccc;
   padding: 1.2rem 1.6rem;
 }
 .katalog a {
-  color: var(--site-main-color-);
+  color: black;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .katalog a:hover {
-  color: var(--site-color-);
+  color: #ff0096;
   box-shadow: rgba(0, 0, 0, 0.35) 0px -10px 6px -8px inset;
 }
 .main-container-of-main {
@@ -50,14 +50,14 @@ main {
 }
 .title-of-discount i {
   font-size: 4rem;
-  color: var(--site-color-);
+  color: #ff0096;
 }
 .title-of-discount a {
-  color: var(--site-main-color-);
+  color: #000000;
   text-decoration: none;
 }
 .title-of-discount a:hover {
-  color: var(--site-color-);
+  color: #ff0096;
 }
 .paged-discount {
   display: flex;
@@ -67,7 +67,7 @@ main {
 }
 .paged-discount a i {
   font-size: 3rem;
-  color: var(--site-color-);
+  color: #ff0096;
   transition: 0.3s ease-in-out;
 }
 .paged-discount a i:hover {
@@ -82,7 +82,7 @@ main {
 .discount-item {
   text-decoration: none;
   padding: 12px 18px;
-  border: 1px solid var(--katalog-border-);
+  border: 1px solid #cccccc;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -96,13 +96,13 @@ main {
 }
 .discount-item p {
   font-size: 1.2rem;
-  color: var(--site-main-color-);
+  color: #000000;
 }
 .discount-item span {
   margin-bottom: 15px;
 }
 .discount-item span i {
-  color: var(--katalog-border-);
+  color: #cccccc;
 }
 .discount-item s {
   color: red;
@@ -124,15 +124,15 @@ main {
   padding: 0.8rem 1rem;
   border-radius: 8px;
   border: none;
-  background-color: var(--site-color-);
-  color: var(--site-font-);
+  background-color: #ff0096;
+  color: #ffffff;
   margin-top: 0.5rem;
   transition: 0.3s ease;
 }
 .main-btn:hover {
-  border: 2px solid var(--site-color-);
-  background: var(--site-bg-);
-  color: var(--site-color-);
+  border: 2px solid #ff0096;
+  background: #ffffff;
+  color: #ff0096;
 }
 .title-of-brend {
   display: flex;
@@ -141,7 +141,7 @@ main {
   margin-top: 5rem;
   margin-bottom: 2rem;
   padding-bottom: 3rem;
-  border-bottom: 0.2rem solid var(--katalog-border-);
+  border-bottom: 0.2rem solid #cccccc;
 }
 .brend {
   display: flex;
@@ -149,10 +149,10 @@ main {
 }
 .title-of-brend a {
   text-decoration: none;
-  color: var(--site-main-color-);
+  color: #000000;
 }
 .title-of-brend a:hover {
-  color: var(--site-color-);
+  color: #ff0096;
 }
 .brends a img {
   filter: grayscale(100%);
@@ -180,10 +180,10 @@ main {
 }
 .title-of-new i {
   font-size: 4rem;
-  color: var(--new-section-);
+  color: #50c4ed;
 }
 .title-of-new a {
-  color: var(--site-main-color-);
+  color: #000000;
   text-decoration: none;
 }
 /* New section end */
@@ -204,10 +204,10 @@ main {
 }
 .title-of-best i {
   font-size: 4rem;
-  color: var(--new-section-);
+  color: #50c4ed;
 }
 .title-of-best a {
-  color: var(--site-main-color-);
+  color: #000000;
   text-decoration: none;
 }
 /* Best section end */

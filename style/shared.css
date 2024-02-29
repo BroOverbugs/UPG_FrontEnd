@@ -12,15 +12,15 @@ html {
 }
 body {
   height: 100vh;
-  background-color: var(--site-bg-);
+  background-color: #ffffff;
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: column;
 }
 header {
-  background-color: var(--site-hd-bg-);
-  color: var(--site-font-);
+  background-color: #000000;
+  color: #ffffff;
   height: 7vh;
   display: flex;
   justify-content: space-between;
@@ -48,7 +48,7 @@ header {
   width: 23rem;
 }
 .login-reg a {
-  color: var(--site-font-);
+  color: #ffffff;
   text-decoration: none;
 }
 .order-side {
@@ -62,7 +62,7 @@ header {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  color: var(--site-font-);
+  color: #ffffff;
   text-decoration: none;
 }
 .order-side a h4 {
@@ -94,7 +94,7 @@ header {
   margin-right: 1rem;
 }
 .location a {
-  color: var(--site-main-color-);
+  color: #000000;
   text-decoration: none;
   font-size: 1.3rem;
 }
@@ -116,7 +116,7 @@ header {
 .login-reg a:hover,
 .order-side a:hover,
 .location a:hover {
-  color: var(--site-color-);
+  color: #ff0096;
 }
 /* search side start */
 .search-side {
@@ -139,27 +139,27 @@ header {
   height: 6vh;
   width: 15%;
   border: none;
-  background-color: var(--site-color-);
-  color: var(--site-font-);
+  background-color: #ff0096;
+  color: #ffffff;
   border-radius: 0 1.2rem 1.2rem 0;
   font-size: 2rem;
   font-weight: 500;
   transition: 0.3s ease-in;
 }
 .search-side input:focus {
-  outline: 0.1rem solid var(--site-color-);
+  outline: 0.1rem solid #ff0096;
 }
 .site-btn:hover {
-  border: 2px solid var(--site-color-);
-  background: var(--site-bg-);
-  color: var(--site-color-);
+  border: 2px solid #ff0096;
+  background: #ffffff;
+  color: #ff0096;
 }
 /* search side end */
 /* footer side start */
 footer {
   width: 100%;
-  background-color: var(--site-hd-bg-);
-  color: var(--site-font-);
+  background-color: #000000;
+  color: #ffffff;
   flex-grow: 0;
   flex-shrink: 0;
 }
@@ -181,7 +181,7 @@ footer {
 .footer-side-item a {
   font-size: 1.4rem;
   text-decoration: none;
-  color: var(--site-font-);
+  color: #ffffff;
 }
 .footer-side-item a:not(:last-child) {
   margin-right: 2rem;
@@ -200,7 +200,7 @@ footer {
 }
 .footer-side-item ul li a:hover,
 .footer-side-item a:hover {
-  color: var(--site-color-);
+  color: #ff0096;
 }
 /* footer side end */
 main {

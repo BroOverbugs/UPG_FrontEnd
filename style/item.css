@@ -1,17 +1,26 @@
-.input-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 150px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.name-of-item {
+  font-size: 3rem;
+  color: black;
 }
-
-button {
-  padding: 5px 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  cursor: pointer;
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.item-image {
+  display: flex;
+  width: 40rem;
+  height: 40rem;
+  background-image: url(../images/Product_images/asuslaptop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 6rem;
+  border: 0.2rem solid #f1f1f1;
+}
+.title-of-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }

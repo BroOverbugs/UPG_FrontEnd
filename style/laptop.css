@@ -8,10 +8,10 @@ main {
   border-radius: 8px;
 }
 .filtr {
-  border-top: 8px solid var(--site-color-);
+  border-top: 8px solid #ff0096;
 }
 .filtr h2 {
-  border: 1px solid var(--katalog-border-);
+  border: 1px solid #cccccc;
   padding: 1.2rem 1.6rem;
 }
 .brends span label {
@@ -23,7 +23,7 @@ main {
   padding-bottom: 1.4rem;
 }
 .filtr span div {
-  border: 0.1rem solid var(--katalog-border-);
+  border: 0.1rem solid #cccccc;
   padding: 1.2rem 1.8rem;
   background: #f3f3f39c;
 }
@@ -206,7 +206,7 @@ main {
   margin-top: 1rem;
 }
 .buttons-of-filter button:hover {
-  background: var(--site-color-);
+  background: #ff0096;
 }
 /* main side start */
 .main-container {
@@ -217,7 +217,7 @@ main {
   width: 70%;
 }
 .main-side-intro p a {
-  color: var(--site-color-);
+  color: #ff0096;
   text-decoration: none;
 }
 .main-side-intro span {
@@ -236,10 +236,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--sort-border-);
+  background-color: #f1f1f1;
   padding: 1.5rem 3rem;
   margin-bottom: 3rem;
-  border: 0.1rem solid var(--katalog-border-);
+  border: 0.1rem solid #cccccc;
   border-radius: 0.6rem;
 }
 .sort label {
