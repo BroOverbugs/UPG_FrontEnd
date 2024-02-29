@@ -5,11 +5,11 @@ const subtractButton = document.querySelector(".btn2");
 let countElement = document.querySelector(".count-of-product");
 const charasteristics = document.querySelector(".charasteristics");
 const description = document.querySelector(".description");
-// rangeInput.addEventListener("input", function () {
-//   let value = this.value;
-//   value = value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-//   rangeLabel.textContent = value;
-// });
+rangeInput.addEventListener("input", function () {
+  let value = this.value;
+  value = value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  rangeLabel.textContent = value;
+});
 
 addButton.addEventListener("click", function () {
   var currentCount = parseInt(countElement.innerText);
