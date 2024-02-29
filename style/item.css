@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-top: 5rem;
 }
 .item-image {
   display: flex;
@@ -18,9 +19,81 @@
   background-size: cover;
   padding: 5rem 6rem;
   border: 0.2rem solid #f1f1f1;
+  border-radius: 0.8rem 0 0 0.8rem;
 }
 .title-of-item {
   width: 50%;
   display: flex;
   flex-direction: column;
+}
+.info-for-item {
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid #cccccc;
+  border-radius: 0 0.8rem 0 0;
+  padding: 1.6rem 2.2rem;
+}
+.info-for-item h1 {
+  color: #ff0096;
+  margin: 1rem 0;
+}
+.info-for-item p {
+  margin: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.info-for-item a {
+  text-decoration: none;
+  color: #ff0096;
+  margin: 1rem 0;
+}
+.info-for-item a:hover {
+  color: #80004a;
+}
+.add-item-for {
+  display: flex;
+  align-items: center;
+}
+.add-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3rem;
+}
+.add-item p {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.8rem 1.2rem;
+  border: 0.1rem solid #cccccc;
+}
+.add-item button {
+  height: 4.2rem;
+  border: none;
+  background-color: #cccccc;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+}
+.btn1 {
+  border-radius: 1.2rem 0 0 1.2rem;
+}
+.btn2 {
+  border-radius: 0 1.2rem 1.2rem 0;
+}
+.add-item button i {
+  font-size: 1.5rem;
+  transition: 90ms ease-in;
+  color: #ffffff;
+}
+.add-item button:hover {
+  background-color: #ff0096;
+}
+.info-for-product {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 0.8rem 0;
+  border: 0.1rem solid #cccccc;
+  padding: 1.6rem 2.2rem;
+}
+.info-for-product p {
+  font-size: 1.6rem;
 }
