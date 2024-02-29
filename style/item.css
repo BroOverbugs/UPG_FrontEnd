@@ -153,7 +153,7 @@
   color: #80004a;
 }
 .hidden {
-  display: none;
+  display: none !important;
 }
 .main-infos button {
   padding: 1.2rem 1.6rem;
@@ -178,13 +178,13 @@
   align-items: center;
   border-bottom: 0.2rem solid #cccccc;
 }
-.characteristics {
+.characteristics-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.characteristics span {
+.characteristics-info span {
   display: flex;
   align-items: center;
   padding: 0 2rem;
@@ -192,9 +192,12 @@
   padding: 2rem;
   background-color: #f1f1f173;
 }
-.characteristics span b {
+.characteristics-info span b {
   width: 30%;
 }
-.characteristics span:last-child {
+.characteristics-info span:last-child {
   border-radius: 0 0 0.8rem 0.8rem;
+}
+.description-info {
+  padding-top: 2rem;
 }
